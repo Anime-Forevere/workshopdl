@@ -1,0 +1,29 @@
+{
+  "name": "workshopdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^8.0.0",
+    "unzip": "^0.1.11"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
+  "devDependencies": {
+    "@types/download": "^8.0.5",
+    "@types/node": "^20.9.3",
+    "@types/unzip": "^0.1.4",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">= 10"
+  }
+}
